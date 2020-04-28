@@ -11,7 +11,6 @@
 // MARK: Imports
 
 import Foundation
-import SwiftyVIPER
 
 // MARK: Protocols
 

@@ -12,8 +12,6 @@
 
 import UIKit
 
-import SwiftyVIPER
-
 // MARK: Protocols
 
 /// Should be conformed to by the `___FILEBASENAMEASIDENTIFIER___` and referenced by `___VARIABLE_productName___ViewController`

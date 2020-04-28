@@ -14,8 +14,6 @@ import XCTest
 
 @testable import ___PROJECTNAME___
 
-import SwiftyVIPER
-
 // MARK: -
 
 class ___FILEBASENAMEASIDENTIFIER___: XCTestCase {

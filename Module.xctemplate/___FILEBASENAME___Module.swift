@@ -10,7 +10,6 @@
 
 // MARK: Imports
 
-import SwiftyVIPER
 import UIKit
 
 // MARK: -
