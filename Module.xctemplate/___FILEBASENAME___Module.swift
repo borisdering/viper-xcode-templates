@@ -44,8 +44,8 @@ final class ___FILEBASENAMEASIDENTIFIER___: ModuleProtocol {
 	// MARK: Inits
 
 	init() {
-		presenter.view = view
-		router.viewController = view
-		interactor.presenter = presenter
+		self.presenter.view = self.view
+		self.router.viewController = self.view
+		self.interactor.presenter = self.presenter
 	}
 }

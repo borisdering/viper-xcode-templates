@@ -15,9 +15,7 @@ import UIKit
 // MARK: Protocols
 
 /// Should be conformed to by the `___FILEBASENAMEASIDENTIFIER___` and referenced by `___VARIABLE_productName___ViewController`
-protocol ___VARIABLE_productName___ViewPresenterProtocol: ViewPresenterProtocol {
-
-}
+protocol ___VARIABLE_productName___ViewPresenterProtocol: ViewPresenterProtocol {}
 
 /// Should be conformed to by the `___FILEBASENAMEASIDENTIFIER___` and referenced by `___VARIABLE_productName___Interactor`
 protocol ___VARIABLE_productName___InteractorPresenterProtocol: class {
@@ -52,7 +50,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___ViewPresen
 	// MARK: - ___VARIABLE_productName___ View to Presenter Protocol
 
     func viewDidLoad() {
-        interactor.requestTitle()
+        self.interactor.requestTitle()
     }
     
     func viewWillApear() {}
@@ -63,6 +61,6 @@ final class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___ViewPresen
 	// MARK: - ___VARIABLE_productName___ Interactor to Presenter Protocol
 
 	func set(title: String?) {
-		view?.set(title: title)
+		self.view?.set(title: title)
 	}
 }

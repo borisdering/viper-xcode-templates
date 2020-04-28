@@ -32,6 +32,6 @@ final class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___PresenterI
 	// MARK: - ___VARIABLE_productName___ Presenter to Interactor Protocol
 
 	func requestTitle() {
-		presenter?.set(title: "___VARIABLE_productName___")
+		self.presenter?.set(title: "___VARIABLE_productName___")
 	}
 }

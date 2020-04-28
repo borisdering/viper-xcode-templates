@@ -49,9 +49,9 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_productName_
 
 	override func viewDidLoad() {
     	super.viewDidLoad()
-		presenter.viewDidLoad()
+		self.presenter.viewDidLoad()
 
-		view.backgroundColor = .white
+		self.view.backgroundColor = .white
     }
 
 	// MARK: - ___VARIABLE_productName___ Presenter to View Protocol
