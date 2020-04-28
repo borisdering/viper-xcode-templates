@@ -51,9 +51,14 @@ final class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___ViewPresen
 
 	// MARK: - ___VARIABLE_productName___ View to Presenter Protocol
 
-	func viewLoaded() {
-		interactor.requestTitle()
-	}
+    func viewDidLoad() {
+        interactor.requestTitle()
+    }
+    
+    func viewWillApear() {}
+    func viewDidApear() {}
+    func viewWillDisapear() {}
+    func viewDidDisapear() {}
 
 	// MARK: - ___VARIABLE_productName___ Interactor to Presenter Protocol
 
