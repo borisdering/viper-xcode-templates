@@ -38,7 +38,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: ModuleProtocol {
 	// MARK: - Module Protocol Variables
 
 	var viewController: UIViewController {
-		return view
+		return self.view
 	}
 
 	// MARK: Inits
